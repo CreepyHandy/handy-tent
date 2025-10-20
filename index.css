@@ -132,7 +132,7 @@ border-radius: 28px;
 .circle{
 position: absolute;
 top: 258px;
-left: 615px;
+left: 655px;
 width: 80px;
 height: 80px;
 flex-shrink: 0;
@@ -148,8 +148,8 @@ width: 41.672px;
 height: 38.514px;
 flex-shrink: 0;
 fill: var(--LM---Background, #F9FAFB);
-top: 280px;
-left: 633px;
+top: 285px;
+left: 678px;
 }
 
 .more-images{
@@ -573,7 +573,7 @@ margin-left: 5%;
 
    .logo img{
     width: 40px;
-height: 40px;
+height: 30px;
 aspect-ratio: 1/1;
    }
 
@@ -590,7 +590,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-left: 5%;
-margin-top: 5%;
+margin-top: 7%;
 }
 
 .path .hilight{
@@ -603,25 +603,20 @@ line-height: normal;
 }
 
 .tent-details{
-    display:contents;
-    
-    
-    
-    
-    
+    display:contents; 
 }
 
 .hero-image img{
-width: 380px;
-height: 320px;
+width: 90%;
+height: 70vh;
 margin-left: 5%;
-margin-top: 3%;
+margin-top: 7%;
 }
 
 .circle{
 position: absolute;
-top: 160px;
-left: 310px;
+top: 155px;
+left: 320px;
 width: 45px;
 height: 45px;
 flex-shrink: 0;
@@ -633,22 +628,23 @@ background: rgba(255, 255, 255, 0.60);
 
 .favorite-icon{
 position: absolute;
-width: 10.672px;
-height: 10.514px;
+width: 10vw;
+height: 10vh;
 flex-shrink: 0;
 fill: var(--LM---Background, #F9FAFB);
-top: 160px;
-left: 320px;
+top: 163px;
+left: 326px;
 
 }
 
 .more-images{
     margin-left: 5%;
-    top: 470px;
+    top: 720px;
     padding-bottom: 49px;
     display: inline-flex;
-align-items: center;
-gap: 5%;
+    align-items: center;
+    gap: 5%;
+    width: 40%;
 }
 
 .more-images img{
