@@ -655,12 +655,12 @@ left: 326px;
 }
 
 .more-images{
+    padding-top: 10px;
    justify-content: space-around;
    align-items: center;
    gap: 8px;
     
-          
-    
+           
 }
 
 .more-images img{
