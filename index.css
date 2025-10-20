@@ -639,11 +639,12 @@ left: 326px;
 
 .more-images{
     margin-left: 5%;
-    top: 720px;
+    top: 780px;
     padding-bottom: 49px;
     display: inline-flex;
     align-items: center;
-    gap: 3%;    
+    gap: 4%;
+    width: 100%;    
     
 }
 
