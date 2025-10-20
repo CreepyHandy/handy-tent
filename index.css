@@ -612,8 +612,8 @@ line-height: normal;
 }
 
 .hero-image img{
-width: 350px;
-height: 300px;
+width: 380px;
+height: 320px;
 margin-left: 5%;
 margin-top: 3%;
 }
@@ -643,20 +643,20 @@ left: 320px;
 }
 
 .more-images{
-    position: absolute;
     margin-left: 5%;
-    top: 450px;
+    top: 470px;
     padding-bottom: 49px;
     display: inline-flex;
 align-items: center;
-gap: 12px;
+gap: 5%;
 }
 
 .more-images img{
-width: 107px;
-height: 110px;
+width: 115px;
+height: 115px;
 flex-shrink: 0;
 aspect-ratio: 1/1;
+
 
 }
 
