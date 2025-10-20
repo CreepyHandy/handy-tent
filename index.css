@@ -821,6 +821,18 @@ gap: 1px;
 align-self: stretch;
 }
 
+.quantity-control #minus{
+   
+    display: flex;
+}
+
+
+.quantity-control #plus{
+    display: flex;
+
+
+}
+
 .info-details .more{
     margin-left: 5%;
     margin-top: 30px;
