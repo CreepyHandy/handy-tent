@@ -654,8 +654,8 @@ left: 326px;
 }
 
 .more-images{
-   justify-content: space-around;
-   gap: 10px;
+   justify-content: space-between;
+   gap: 7px;
     
           
     
