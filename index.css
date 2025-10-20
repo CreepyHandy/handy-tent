@@ -644,7 +644,7 @@ left: 326px;
     display: inline-flex;
     align-items: center;
     gap: 10%;
-    max-width: 20%;
+    width: 70%;
         
     
 }
