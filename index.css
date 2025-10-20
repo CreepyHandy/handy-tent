@@ -10,6 +10,7 @@ body{
     background-color: #121212;
     width: 100%;
     line-height: 1.5;
+    padding-top: 120px
     
 }
 
@@ -24,8 +25,10 @@ border: 2px solid rgba(90, 85, 255, 0.25);
 background: var(--dm-cards-background, #1E1E1E);
 margin-top: 2%;
 margin-left: 10%;
-
-
+position: fixed;
+top: 0%;
+left: 0%;
+z-index: 1000;
 }
 
 .logo img{
@@ -550,12 +553,29 @@ line-height: 171%; /* 30.78px */
     body{
         margin-left: 0%;
         right: 0;
-        margin-top: 90px;
+        
         
     }
 
    .nav-links{
     display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    background: #1E1E1E;
+    width: 100%;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+    top: 60px;
+    align-items: center;
+    padding: 40px;
+    z-index: 100;
+    transition: all 3s ease;
+   }
+
+   .nav-links.active{
+    display: flex;
+
    }
 
    .nav-search{
@@ -606,7 +626,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-left: 5%;
-margin-top: 7%;
+margin-top: -10px;
 }
 
 .path .hilight{
@@ -632,7 +652,7 @@ margin-top: 7%;
 
 .circle{
 position: absolute;
-top: 155px;
+top: 165px;
 left: 320px;
 width: 45px;
 height: 45px;
@@ -649,7 +669,7 @@ width: 10vw;
 height: 10vh;
 flex-shrink: 0;
 fill: var(--LM---Background, #F9FAFB);
-top: 163px;
+top: 173px;
 left: 326px;
 
 }
