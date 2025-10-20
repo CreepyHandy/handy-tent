@@ -643,7 +643,8 @@ left: 326px;
     padding-bottom: 49px;
     display: inline-flex;
     align-items: center;
-    gap: 1%;
+    gap: 2%;
+    max-width: fit-content;
     
         
     
