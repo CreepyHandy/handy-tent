@@ -8,12 +8,8 @@ box-sizing: border-box;
 body{
      font-family: "Satoshi", sans-serif;
     background-color: #121212;
-    color: #fafafa;
+    width: 100%;
     line-height: 1.5;
-    margin-left: 109px;
-    margin-right: 90px;
-    
-    
     
 }
 
@@ -26,7 +22,8 @@ gap: 88px;
 border-radius: 36px;
 border: 2px solid rgba(90, 85, 255, 0.25);
 background: var(--dm-cards-background, #1E1E1E);
-margin-top: 40px;
+margin-top: 2%;
+margin-left: 10%;
 
 
 }
@@ -90,6 +87,12 @@ line-height: normal;
 .nav-icons{display: flex;
 align-items: center;
 gap: 16px;
+cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
 }
 
 .path{
@@ -100,6 +103,7 @@ font-size: 22px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-left: 10%;
 }
 
 .path .hilight{
@@ -114,6 +118,7 @@ line-height: normal;
 .tent-details{
     display: flex;
     margin-top: 41px;
+    margin-left: 10%;
     
 }
 
@@ -360,6 +365,15 @@ line-height: 100%; /* 21px */
 outline: none;
 }
 
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance:none;
+}
+
+
+
 .info-details .more{
     margin-left: 50px;
     margin-top: 40px;
@@ -522,3 +536,411 @@ line-height: 171%; /* 30.78px */
 }
 
 /* Default(desktop) */
+@media (max-width: 480px){
+
+    body{
+        margin-left: 0%;
+        right: 0;
+        
+    }
+
+   .nav-links{
+    display: none;
+   }
+
+   .nav-search{
+    display: none;
+   }
+
+   .nav-icons{
+    display: none;
+   }
+
+   .navbar{
+    display: flex;
+height: 49px;
+width: 90vw;
+padding: 9px 27px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-radius: 36px;
+border: 2px solid rgba(90, 85, 255, 0.25);
+background: var(--dm-cards-background, #1E1E1E);
+margin-top: 5%;
+margin-left: 5%;
+   }
+
+   .logo img{
+    width: 40px;
+height: 40px;
+aspect-ratio: 1/1;
+   }
+
+   .hamburger{
+    display: block;
+    cursor: pointer;
+   }
+
+.path{
+   color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 5%;
+margin-top: 5%;
+}
+
+.path .hilight{
+    color: var(--DM---Primary-Color, #7B77FF);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tent-details{
+    display:contents;
+    
+    
+    
+    
+    
+}
+
+.hero-image img{
+width: 350px;
+height: 300px;
+margin-left: 5%;
+margin-top: 3%;
+}
+
+.circle{
+position: absolute;
+top: 160px;
+left: 310px;
+width: 45px;
+height: 45px;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+border-radius: 100px;
+background: rgba(255, 255, 255, 0.60);
+}
+
+
+.favorite-icon{
+position: absolute;
+width: 10.672px;
+height: 10.514px;
+flex-shrink: 0;
+fill: var(--LM---Background, #F9FAFB);
+top: 160px;
+left: 320px;
+
+}
+
+.more-images{
+    position: absolute;
+    margin-left: 5%;
+    top: 450px;
+    padding-bottom: 49px;
+    display: inline-flex;
+align-items: center;
+gap: 12px;
+}
+
+.more-images img{
+width: 107px;
+height: 110px;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+
+}
+
+
+
+.tent-details .tent{
+    color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 14px */
+margin-top: 170px;
+padding-left: 5%;
+
+}
+
+.tent-details .alps-mountaineering{
+   color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 28px */
+padding-left: 5%;
+}
+
+.info-details .rating{
+padding-left: 5%;
+padding-top: 18px;
+display: flex;
+align-items: center;
+gap: 6px;
+}
+
+.tent-details .rating img{
+width: 14px;
+height: 14px;
+aspect-ratio: 1/1;
+}
+
+.tent-details .rating .rate{
+  color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 12px */
+}
+
+
+.info-details .pricing .price{
+   color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 30px */
+padding-left: 5%;
+}
+
+.info-details .pricing .price-info{
+color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 171%; /* 27.36px */
+padding-left: 5%;
+}
+
+.info-details .color{
+   display: flex;
+width: 213px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+padding-left: 5%;
+padding-top: 14px;
+}
+
+.color .col{
+   color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 171%; /* 35.91px */
+}
+
+.info-details .quantity{
+    display: flex;
+width: 121px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+padding-top: 30px;
+padding-left: 5%;
+}
+
+.quantity .quan{
+    color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 171%; /* 35.91px */
+}
+
+.quantity .quantity-control{
+    
+    align-items: center;
+    background: none;
+    display: flex;
+align-items: center;
+gap: 1px;
+align-self: stretch;
+}
+
+.info-details .more{
+    margin-left: 5%;
+    margin-top: 35px;
+
+  display: inline-flex;
+padding: 7px 5px 7px 6px;
+justify-content: center;
+align-items: center;
+border-radius: 32px;
+border: 2px solid rgba(90, 85, 255, 0.20);
+background: var(--dm-cards-background, #1E1E1E);
+
+}
+
+.more .more2{
+display: flex;
+align-items: center;
+gap: 1px;
+}
+
+
+.more2 .view{
+   color: var(--LM---Primary-Colour, #5A55FF);
+font-family: Satoshi;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 5px; /* 41.667% */
+display: flex;
+padding: 16px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 32px;
+background: var(--DM---Background, #121212);
+}
+
+.more2 .specs{
+   color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 5px; /* 41.667% */
+display: flex;
+padding: 14px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.more2 .guide{
+color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 5px; /* 41.667% */
+display: flex;
+padding: 14px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.more2 .reviews{
+  color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 5px; /* 41.667% */
+display: flex;
+padding: 14px 27px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.about .about-this{
+color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 171%; /* 23.94px */
+margin-left: 5%;
+}
+
+.about .about-details{
+color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 171%; /* 23.94px */
+}
+
+.about .feature{
+    color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 171%; /* 27.36px */
+padding-top: 14px;
+}
+
+.feature-list{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.feature-list li{
+color: var(--DM---Secondary-Texts, #BDBDBD);
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 171%; /* 23.94px */
+}
+
+.cta{
+display: flex;
+width: 345px;
+align-items: center;
+gap: 10px;
+padding-left: 5%;
+padding-top: 24px;
+}
+
+.cta .cart{
+    border: none;
+    display: flex;
+color: var(--DM---Primary-Texts, #FFF);
+font-family: Satoshi;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 171%; /* 17.1px */
+display: flex;
+width: 191px;
+padding: 11px 50px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+flex-shrink: 0;
+}
+
+.cta .buy{
+    background: none;
+display: flex;
+color: var(--LM---Primary-Colour, #5A55FF);
+font-family: Satoshi;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 171%; /* 17.1px */
+padding: 11px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+
+
+}
+
+}
