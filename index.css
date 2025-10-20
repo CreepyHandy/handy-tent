@@ -649,13 +649,14 @@ left: 326px;
 .image-container{
     margin-left: 5%;
     top: 87%;
+    max-width: 90vw;
     
     
 }
 
 .more-images{
    justify-content: space-between;
-   gap: 7px;
+   gap: 8px;
     
           
     
