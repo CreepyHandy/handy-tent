@@ -334,7 +334,8 @@ gap: 19px;
 align-self: stretch;
 }
 
-.quantity-control .minus{
+.quantity-control #minus{
+    cursor: pointer;
     display: flex;
     border: none;
 width: 35px;
@@ -347,7 +348,8 @@ border-radius: 100px;
 background: var(--dm-cards-background, #1E1E1E);
 }
 
-.quantity-control .plus{
+.quantity-control #plus{
+    cursor: pointer;
     display: flex;
     border: none;
 width: 35px;
@@ -973,7 +975,7 @@ flex-shrink: 0;
 display: flex;
 color: var(--LM---Primary-Colour, #5A55FF);
 font-family: Satoshi;
-font-size: 10px;
+font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: 171%; /* 17.1px */
