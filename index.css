@@ -608,7 +608,7 @@ line-height: normal;
 
 .hero-image img{
 width: 90%;
-height: 70vh;
+height: 520px;
 margin-left: 5%;
 margin-top: 7%;
 }
@@ -639,12 +639,13 @@ left: 326px;
 
 .more-images{
     margin-left: 5%;
-    top: 780px;
+    top: 700px;
     padding-bottom: 49px;
     display: inline-flex;
     align-items: center;
-    gap: 4%;
-    width: 100%;    
+    gap: 10%;
+    max-width: 20%;
+        
     
 }
 
