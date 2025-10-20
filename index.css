@@ -550,6 +550,7 @@ line-height: 171%; /* 30.78px */
     body{
         margin-left: 0%;
         right: 0;
+        margin-top: 90px;
         
     }
 
@@ -578,7 +579,11 @@ border: 2px solid rgba(90, 85, 255, 0.25);
 background: var(--dm-cards-background, #1E1E1E);
 margin-top: 5%;
 margin-left: 5%;
+position: fixed;
+top: 0;
+z-index: 1000;
    }
+
 
    .logo img{
     width: 40px;
@@ -589,9 +594,11 @@ aspect-ratio: 1/1;
    .hamburger{
     display: block;
     cursor: pointer;
+    
    }
 
 .path{
+    cursor: pointer;
    color: var(--DM---Secondary-Texts, #BDBDBD);
 font-family: Satoshi;
 font-size: 14px;
