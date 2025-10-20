@@ -649,6 +649,7 @@ left: 326px;
 .image-container{
     margin-left: 5%;
     top: 87%;
+    padding: 0 0.1rem;
     
 }
 
@@ -665,6 +666,7 @@ width: 115px;
 height: 115px;
 flex-shrink: 0;
 aspect-ratio: 1/1;
+max-width: 120px;
 
 
 }
