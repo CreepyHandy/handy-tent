@@ -656,6 +656,7 @@ left: 326px;
 
 .more-images{
    justify-content: space-between;
+   align-items: center;
    gap: 8px;
     
           
