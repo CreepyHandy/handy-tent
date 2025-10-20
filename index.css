@@ -11,6 +11,7 @@ body{
     color: #fafafa;
     line-height: 1.5;
     margin-left: 109px;
+    margin-right: 109px;
     
     
     
@@ -519,3 +520,5 @@ font-style: normal;
 font-weight: 700;
 line-height: 171%; /* 30.78px */
 }
+
+/* Default(desktop) */
