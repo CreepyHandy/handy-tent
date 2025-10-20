@@ -648,19 +648,18 @@ left: 326px;
 
 .image-container{
     margin-left: 5%;
-    top: 87%;
+    top: 91%;
     max-width: 90vw;
     
     
 }
 
 .more-images{
-    padding-top: 10px;
+   
    justify-content: space-around;
    align-items: center;
    gap: 8px;
-    
-           
+               
 }
 
 .more-images img{
