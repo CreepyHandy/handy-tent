@@ -152,21 +152,30 @@ top: 285px;
 left: 678px;
 }
 
-.more-images{
-    position: absolute;
-    left: auto;
+.image-container{
+   position: absolute;
+    display: inline;
+    margin: 0 auto;
     top: 939px;
-    padding-bottom: 49px;
-    display: inline-flex;
-align-items: center;
-gap: 27px;
+}
+
+.more-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    
+    
+    
 }
 
 .more-images img{
   width: 186px;
 height: 186px;
 border-radius: 20px;
-
+max-width: 200px;
+display: block;
+object-fit: cover;
 }
 
 .tent-details .tent{
@@ -637,16 +646,17 @@ left: 326px;
 
 }
 
-.more-images{
+.image-container{
     margin-left: 5%;
-    top: 700px;
-    padding-bottom: 49px;
-    display: inline-flex;
-    align-items: center;
-    gap: 2%;
-    max-width: 50vw;
+    top: 87%;
     
-        
+}
+
+.more-images{
+   justify-content: space-around;
+   gap: 2%;
+    
+          
     
 }
 
